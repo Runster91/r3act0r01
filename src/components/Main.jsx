@@ -1,5 +1,10 @@
-import Producto1 from "./Producto1";
-import Producto2 from "./Producto2";
+import Producto from './Producto';
+import imagenBitoin from '../assets/bitcoin.jpg';
+import imagenethereum from '../assets/ethereum.jpg';
+import pikachu from '../assets/pocurrency.jpg';
+import Eventos from './Eventos';
+
+
 
 
 
@@ -10,18 +15,16 @@ import Producto2 from "./Producto2";
         
         
         <>
-            
-
-            
+                       
                 <h2>Productos</h2>
-                <Producto1 />
-                <Producto2 />
-          
+                <div className="contenedor">
+                    <Producto nombre="bitcoin" descripcion="la moneda mas importante" imagen={imagenBitoin} />
+                    <Producto nombre="ethereum" descripcion="la segunda moneda mas importante" imagen={imagenethereum} />
+                    <Producto nombre="picurrency" descripcion="la tercera moneda mas importante" imagen={pikachu} />
+                </div>
 
-            
-
-
-            
+                <Eventos /> 
+           
         </>
 
         
