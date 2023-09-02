@@ -11,9 +11,27 @@ img{
 .card{
   border: 2px solid black ;
   width: 300px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contenedor {
   display: flex;
+  
   gap: 29px;
+  align-content: center;
+}
+
+.header {
+  background-color: orangered;
+  
+}
+
+.ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
 }

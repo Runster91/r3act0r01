@@ -1,9 +1,13 @@
 const Header = ()=>{
 
     return (
-        <header>
-            <h1>Crash Test</h1>
-        </header>
+        <div className="header">
+            <ul className="ul">
+                <li>About</li>
+                <li>Dashboard</li>
+                <li>Logout</li>
+            </ul>
+        </div>
 
     )
 }
